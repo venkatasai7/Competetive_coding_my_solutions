@@ -17,10 +17,6 @@ public:
             return true;
         if(((p!=NULL)? p->val : -1000000)!=((q!=NULL)? q->val : -100000))
             return false;
-        else if(p!=NULL && q==NULL)
-            return false;
-        else if(p==NULL && q!=NULL)
-            return false;
         else  
             return isSameTree(p->left,q->left) && isSameTree(p->right,q->right);    
     }
