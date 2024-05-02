@@ -2,6 +2,7 @@
  
 // https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/?envType=daily-question&envId=2024-03-05
 
+
 class Solution {
 public:
     int minimumLength(string s) {
